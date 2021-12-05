@@ -20,7 +20,7 @@ describe('index.js', function () {
 
       expect(findMatching(drivers, 'Susan')).to.eql([]);
     });
-  });
+  }); 
 
   describe('fuzzyMatch()', function () {
     const drivers = [];
